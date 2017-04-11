@@ -1,9 +1,9 @@
 <?php
 $email = $_POST['email2'];
-$servername = "mysql.hostinger.co.il";
-$dbname = "u486936244_login";
-$dbusername = "u486936244_uriel";
-$dbpassword = "uriel1811";
+$servername = "";
+$dbname = "";
+$dbusername = "";
+$dbpassword = "";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $dbusername, $dbpassword);
