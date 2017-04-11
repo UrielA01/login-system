@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
     function post_captcha($user_response) {
         $fields_string = '';
         $fields = array(
-            'secret' => '6Le4JRsUAAAAAK9kitQC9FcldRtHM4Vfvgjp5L9E',
+            'secret' => '',
             'response' => $user_response
         );
         foreach($fields as $key=>$value)
@@ -32,10 +32,10 @@ if(isset($_POST['submit'])){
     } else {
         // If CAPTCHA is successfully completed...
 
-       $servername = "mysql.hostinger.co.il";
-$dbname = "u486936244_login";
-$dbusername = "u486936244_uriel";
-$dbpassword = "uriel1811";
+       $servername = "";
+$dbname = "";
+$dbusername = "";
+$dbpassword = "";
 $username = htmlspecialchars($_POST['username']);
 $password = htmlspecialchars($_POST['password']);
 
