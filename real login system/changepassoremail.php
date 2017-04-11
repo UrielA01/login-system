@@ -1,10 +1,10 @@
 <?php
 session_start();
 if(isset($_POST['submit'])){
-$servername = "mysql.hostinger.co.il";
-$dbname = "u486936244_login";
-$dbusername = "u486936244_uriel";
-$dbpassword = "uriel1811";
+$servername = "";
+$dbname = "";
+$dbusername = "";
+$dbpassword = "";
 $oldpass = $_POST['oldpass'];
 $newpass = $_POST['newpass'];
 $newemail = $_POST['nememail'];
